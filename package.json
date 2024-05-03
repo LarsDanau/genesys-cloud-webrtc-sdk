@@ -10,11 +10,11 @@
   "cjs": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "es:bundle": "dist/es/index.bundle.js",
-  "main": "dist/cjs/index.js",
+  "main": "src/index.ts",
   "web": "dist/{version}/genesys-cloud-webrtc-sdk.bundle.js",
   "typings": "dist/es/index.d.ts",
   "files": [
-    "dist"
+    "src"
   ],
   "pre-push": [
     "test"
@@ -60,8 +60,8 @@
     "backoff-web": "^1.0.1",
     "browserama": "^3.1.1",
     "core-js": "^3.7.0",
-    "genesys-cloud-client-logger": "^4.2.6",
-    "genesys-cloud-streaming-client": "^16.0.3",
+    "genesys-cloud-client-logger": "git://github.com/LarsDanau/genesys-cloud-client-logger.git#MO",
+    "genesys-cloud-streaming-client": "git://github.com/LarsDanau/genesys-cloud-streaming-client.git#MO",
     "jwt-decode": "^3.1.2",
     "lodash": "^4.17.15",
     "process-fast": "^1.0.0",
