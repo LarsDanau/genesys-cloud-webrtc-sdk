@@ -13,9 +13,6 @@
   "main": "src/index.ts",
   "web": "dist/{version}/genesys-cloud-webrtc-sdk.bundle.js",
   "typings": "dist/es/index.d.ts",
-  "files": [
-    "src"
-  ],
   "pre-push": [
     "test"
   ],
